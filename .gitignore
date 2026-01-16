@@ -1,0 +1,13 @@
+dataset/
+data/
+*.csv
+*.tsv
+
+__pycache__/
+*.pyc
+*.pyo
+
+models/
+*.pth
+*.pt
+*.pkl
