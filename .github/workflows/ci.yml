@@ -26,7 +26,7 @@ jobs:
 
       - name: Verify imports (no training)
         env:
-          PYTHONPATH: .
+          PYTHONPATH: ./src
         run: |
           python - <<EOF
           import src.data.preprocess
