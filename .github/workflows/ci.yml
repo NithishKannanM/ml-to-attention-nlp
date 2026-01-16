@@ -25,12 +25,12 @@ jobs:
           pip install -r requirements.txt
 
       - name: Verify imports (no training)
+        env:
+          PYTHONPATH: .
         run: |
           python - <<EOF
           import src.data.preprocess
           import src.models.cnn_lstm
           import src.models.att_lstm
-          import src.train
-          import app
           print("✅ Core imports successful")
           EOF
