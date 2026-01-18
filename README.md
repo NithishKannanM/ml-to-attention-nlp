@@ -70,7 +70,7 @@ To address the sequence compression problem, I introduced an attention mechanism
 
 | Model          |  Accuracy |  F1 Score |
 |----------------|-----------|-----------|
-| SVM + TF-IDF   |   ~0.88   |   ~0.88   |
+| SVM + TF-IDF   |   ~0.85   |   ~0.85   |
 | CNN–LSTM       |   ~0.88   |   ~0.88   |
 | Attention–LSTM | **~0.89** | **~0.89** |
 
